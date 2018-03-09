@@ -1,0 +1,155 @@
+
+body, button{
+    font: 14px 'Playfair Display', serif;
+    line-height: 24px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+header{
+    padding-top: 70px;
+    width: 1060px;
+    margin: 0 auto;
+    margin-bottom: 95px; 
+}
+
+nav{
+    float: right;
+}
+
+.logo{
+    margin-bottom: 75px;
+}
+
+.logo a{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 90px;
+} 
+
+.logo h1{
+    font-size: 0;
+}
+
+.mine-menu li{
+    display: inline-block;
+}
+ /* PhotoDiary */
+ .s-size{
+    width: 900px;
+    margin: 0 auto;  
+ }
+
+.heading {
+    color: #626262;
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+ .style-gray{
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin:  25px 0;
+    display: block;     
+ }
+
+ .text-diary{
+    margin-bottom: 50px;
+ }
+
+.posts{
+    margin-top: 130px;
+}
+
+.post{
+    display: inline-block;
+    width: 420px;
+    margin-bottom: 55px;
+}
+
+.post:nth-child(2n-1) {
+    margin-right: 40px;  
+}
+
+.s-button{
+    border: 1px solid #626262;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto 60px;
+    width: 165px;
+    height: 60px; 
+}
+/* Start Form */
+.wrap-color, .mail  {
+background-color: #f0f0f0;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.mail {
+    display: block;
+    float: left;
+    border: none;
+    width: 400px;
+    font: 14px 'Playfair Display', serif;
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+.form-input {
+    margin: 80px auto 0;
+    width: 455px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #626262;
+    overflow: hidden;
+}
+
+.form-input button {
+    border: none;
+    float: right;
+}
+/* End Form */
+/* Footer */
+footer{
+    background-color: #f0f0f0;
+    height: 100px;
+}
+
+.footer-wrap{
+padding-top: 40px;
+width: 985px;
+margin: 0 auto;
+}
+
+.footer-wrap > a {
+    margin-right: 15px;
+}
+
+.social {
+    float: right;
+
+}
+
+.social > a {
+    display: inline-block;
+    height: 15px;
+    width: 20px;
+    margin-left: 20px;    
+}
+
+.fb {
+    background: url('../images/fb.png') 50% 50% no-repeat;
+}
+
+.tw {
+    background: url('../images/tw.png') 50% 50% no-repeat;
+}
+
+.in {
+    background: url('../images/in.png') 50% 50% no-repeat;
+}
