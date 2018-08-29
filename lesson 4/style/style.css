@@ -115,6 +115,7 @@ min-width:985px;
 
 .form-input button {
     border: none;
+    background: none;
     float: right;
 }
 /* End Form */
